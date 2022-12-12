@@ -1,0 +1,26 @@
+<html>
+<head>
+<style> 
+#myDIV {
+  width: 3000px;
+  height: 2000px;
+  border: 10px solid black;
+  background-image: url('balaya.gif');
+  background-position: top left;
+  animation: mymove 10s infinite;
+}
+
+@keyframes mymove {
+  50% {background-position: center;}
+}
+</style>
+</head>
+<body>
+
+<h1>Animation of background-position</h1>
+
+<p>Gradually change the background-position from "top left" to "center", and back to "top left":<p>
+<div id="myDIV"></div>
+
+</body>
+</html>
